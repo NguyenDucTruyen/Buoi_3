@@ -12,12 +12,10 @@ html{
 }
 
 .container{
-    width: 1300x;
     height: 100vh;
-    margin: auto;
     background-image: url("https://photo2.tinhte.vn/data/attachment-files/2021/07/5555611_img19.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center ;
     display: flex;
     align-items: center;
@@ -26,7 +24,7 @@ html{
 }
 .container__area{
     width: 450px;
-    height: 700px;
+    height: 96vh;
     margin: auto;
     min-height: 500px;
     display: flex;
@@ -129,6 +127,7 @@ html{
     list-style-type: none;
     width: 100%;
 }
+
 .contain__menu__ul-title{
     font-size: 10px;
     color: #777F90;
@@ -136,10 +135,11 @@ html{
     margin-bottom: -8px;
     line-height: 16px;
 }
+
 .contain__menu__li{
     width: 100%;
-    margin-top: 20px;
     display: flex;
+    margin-top: 20px;
     align-items: center;
     position: relative;
     cursor: pointer;
@@ -249,12 +249,11 @@ html{
 .contain__profile__avt{
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   width: 130px;
 }
 .profile__avt__info{
     width: 80px;
     height: 40px;
+    margin-left: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
